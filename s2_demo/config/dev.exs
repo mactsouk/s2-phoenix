@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :s2_demo, S2Demo.Repo,
-  username: "s2-demo",
-  password: "",
+  username: "postgres",
+  password: "postgres",
   database: "s2_demo_dev",
   hostname: "localhost",
   pool_size: 10
