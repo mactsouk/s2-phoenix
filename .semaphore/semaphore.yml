@@ -13,6 +13,7 @@ blocks:
         commands:
           - checkout
           - cd s2_demo
+          - export MIX_ENV="test"
           - sem-service start postgres
           - mix local.hex --force
           - mix local.rebar --force
